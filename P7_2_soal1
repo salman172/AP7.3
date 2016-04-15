@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int nilai;
+    int i;
+    //int n;
+
+    cout<<"Masukan Nilai : ";
+    cin>>nilai;
+    cout<<endl;
+    for(i=0;i<=nilai;i=i+5){
+       // if(nilai<=i){
+        //cout<<i;
+        //}else{
+            cout<<i<<", ";
+    //}
+    }
+    cout<<endl;
+
+return 0;
+}
